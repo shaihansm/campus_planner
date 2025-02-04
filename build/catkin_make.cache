@@ -1,0 +1,2 @@
+campus_planner
+-DCATKIN_DEVEL_PREFIX=/home/shaihan/sap_planner/devel -DCMAKE_INSTALL_PREFIX=/home/shaihan/sap_planner/install -G Unix Makefiles
