@@ -1,0 +1,8 @@
+prefix=/home/shaihan/sap_planner/devel
+
+Name: campus_planner
+Description: Description of campus_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

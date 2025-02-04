@@ -1,0 +1,11 @@
+<launch>
+  <!-- Start the campus_planner_node -->
+  <node name="campus_planner_node" pkg="campus_planner" type="campus_planner_node" output="screen" />
+
+  <!-- Start RViz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find campus_planner)/rviz/campus_planner_config.rviz" output="screen" />
+
+  <!-- Optional: Start the map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find campus_planner)/map.yaml" output="screen" />
+</launch>
+
