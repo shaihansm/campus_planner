@@ -62,6 +62,7 @@ To run the code I have created .launch file we can run the code by using the fol
 roslaunch campus_planner campus_planner.launch
 ```
 --------------OR------------------------
+
 Manually run
 ```
 roscore
@@ -78,8 +79,14 @@ And finally for the visualization
 ```
 rviz
 ```
-then manually add the subscribed topics to see the result. 
-``
 
+then add the topics `map`, `initial_pose`, `goal`, `marker`. The result is below
+
+## Sapienza Main campus map
+![Run Example](/Resultcampus.png)
+
+## Diag
+
+![Run Example](/Resultdiag.png)
 
 
